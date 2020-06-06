@@ -1,0 +1,519 @@
+/* html {
+    scroll-behavior: smooth !important;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #46344E !important;
+}
+
+.fa-shopping-cart {
+    margin: 0 10px 0 0;
+}
+
+.navbar-dark .nav-link {
+    color: #FAED26 !important;
+}
+
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+    color: ghostwhite !important;
+}
+
+.navbar-brand>img {
+    height: 25px;
+    width: 70px;
+}
+
+.brand-name {
+    color: #FAED26 !important;
+    font-family: Poppins;
+    margin-left: 25px;
+    margin-top: auto;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.card-img-top {
+    width: 222px;
+    height: 200px;
+}
+
+.new-arrivals {
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner>img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover>img {
+    transform: scale(1.5);
+}
+
+.img-fluid {
+    justify-content: center;
+}
+
+.dropdown-menu {
+    background-color: #46344E;
+}
+
+.dropdown-item {
+    color: #FAED26 !important;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active,
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: black !important;
+}
+
+.row,
+.card {
+    margin-top: 25px;
+}
+
+.footer-top p {
+    color: #999;
+    line-height: 25px;
+    font-family: Poppins;
+}
+
+.heading h2,
+h3 {
+    color: #FAED26;
+}
+
+.heading h2 {
+    font-size: 18px;
+}
+
+.btn-success {
+    background-color: #46344E;
+    color: #FAED26;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #FAED26;
+    color: #46344E;
+    font-weight: bold;
+    border-color: #46344E;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heading h3 {
+    display: flex;
+    width: 350px;
+    height: 40px;
+    font-family: Poppins;
+    background-color: #46344E;
+    border-radius: 20px;
+    box-shadow: 2px 4px 5px #5a5560;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 15px;
+}
+
+.fa-truck,
+.fa-headphones,
+.fa-thumbs-o-up {
+    font-size: 40px;
+    color: #FAED26;
+    margin-right: 15px;
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    width: 350px;
+    height: 70px;
+    font-family: Poppins;
+    border-radius: 15px;
+    background-color: #46344E;
+    box-shadow: 2px 4px 5px #FAED26;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px;
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+    font-size: 25px;
+}
+
+.maincard {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-top {
+    background: #46344E;
+    padding: 80px 0;
+    margin-top: 10px;
+}
+
+.segment-one h2 {
+    font-family: Poppins;
+    color: #FAED26;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /* margin: -2px; */
+}
+
+.segment-one i {
+    margin: 0 10px 0 0;
+}
+
+.fa-map-marker {
+    font-size: 20px;
+    color: #c65039;
+}
+
+.fa-phone {
+    color: #c65039;
+    font-size: 20px;
+}
+
+.segment-two h2 {
+    color: #FAED26;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.segment-two h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 40px;
+    font-family: Poppins;
+}
+
+.segment-two ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.segment-three h2 {
+    color: #FAED26;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.segment-three h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three a {
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three i {
+    font-size: 20px;
+    color: #FAED26;
+    padding: 10px 12px;
+}
+
+.segment-four h2 {
+    color: #FAED26;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.segment-four h2:before {
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-four form button[type=submit] {
+    background: #FAED26;
+    border: none;
+    padding: 3px 15px;
+    margin-left: 1px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.footer-bottom-text {
+    text-align: center;
+    background: #494848;
+    line-height: 60px;
+    color: #FAED26;
+}
+
+.to-top {
+    background: #FAED26;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.payment-options,
+.footer-module {
+    text-align: center !important;
+    font-size: 40px;
+    background-color: ghostwhite;
+    font-family: Poppins;
+    margin-top: 10px;
+    color: #46344E;
+    align-items: center;
+}
+
+
+/* Contact Css*/
+
+.contact-form {
+    background: #46344E;
+    opacity: 1;
+    border-radius: 15px;
+    border: 2px solid #46344E;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-form form {
+    padding: 14%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #FAED26;
+    font-family: Poppins;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    font-family: Poppins;
+    background: #FAED26;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Services css */
+
+
+/* About us page */
+
+.jumbotron {
+    background-color: #5a5560;
+    color: #fff;
+    font-family: Poppins;
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 200px;
+}
+
+.jumbotron h1 {
+    color: #FAED26;
+}
+
+.btn-danger {
+    background-color: #46344E;
+    color: #FAED26;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #FAED26;
+    color: #46344E;
+}
+
+.logo {
+    font-size: 200px;
+}
+
+
+/* Services CSS */
+
+.services-info {
+    display: flex;
+    width: 100%;
+    color: #FAED26;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.card-service {
+    background: #46344E;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FAED26;
+    cursor: pointer;
+}
+
+.card-icon {
+    font-size: 28px;
+    background: #5a5560;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card-service:hover .card-icon {
+    background: none;
+    color: #FAED26;
+    transform: scale(1.6);
+}
+
+.card-service p {
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-family: Poppins;
+    max-height: 0;
+    opacity: 0;
+    color: #fff;
+    transition: 0.3s linear;
+}
+
+.card-service:hover p {
+    max-height: 40px;
+    opacity: 1;
+}
+
+.service-head {
+    display: flex;
+    justify-content: center;
+    color: #46344E;
+    align-items: center;
+    font-family: Poppins;
+}
+
+
+/* Rsponsive Footer */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .card,
+    .img-fluid {
+        width: 100%;
+        margin: auto;
+    }
+    .brand-name {
+        font-size: 10px;
+    }
+}
+
+
+/* @media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+} */
